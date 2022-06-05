@@ -1,2 +1,4 @@
-nose
-sphinx
+pandoc
+python-docx
+python-pptx
+progressbar

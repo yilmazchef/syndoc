@@ -12,14 +12,13 @@ with open('LICENSE') as f:
     license = f.read()
 
 setup(
-    name='sample',
-    version='0.1.0',
-    description='Sample package for Python-Guide.org',
+    name='SynDoc',
+    version='0.0.1',
+    description='Python package to auto-generate pdf, docx, pptx, odt, html from md (markdown) files.',
     long_description=readme,
-    author='Kenneth Reitz',
-    author_email='me@kennethreitz.com',
-    url='https://github.com/kennethreitz/samplemod',
+    author='Yilmaz Mustafa',
+    author_email='yilmaz_mustafa@outlook.be',
+    url='https://github.com/yilmazchef/syndoc',
     license=license,
     packages=find_packages(exclude=('tests', 'docs'))
 )
-
